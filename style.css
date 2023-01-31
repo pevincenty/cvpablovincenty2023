@@ -1,0 +1,189 @@
+* {
+    font-family: 'Unbounded', cursive;
+}
+
+section {
+    width: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #12116e;
+    color: aliceblue;
+    margin-top: 30px;
+    padding: 50px;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+
+.izquierda {
+    background-color: #12116e;
+    color: aliceblue;
+    width: 341px;
+}
+
+
+img {
+    height: 350px;
+    width: 340px;
+}
+
+
+#pantalla_dividida {
+    display: flex;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    transition: color 0.3s ease;
+    color: #cecece;
+    text-decoration: none;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+h4 {
+    padding: 10px 0px;
+}
+
+h4 a {
+    color: #12116e
+}
+
+ol {
+    padding: 30px;
+}
+
+li {
+    padding: 20px;
+}
+
+.titulo-container-izq {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.titulo-container-izq i {
+    margin-right: 10px;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button-container {
+    background-color: #d6d6d6;
+    border-radius: 30px;
+    width: 90px;
+    height: 40px;
+    box-shadow: inset 4px 4px 6px #cecece,
+        inset -4px -4px 6px #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: scale(.7);
+
+
+    border-radius: 25px;
+
+    box-shadow: 3px 3px 8px #646464,
+        -3px -3px 8px rgb(46, 46, 46);
+}
+
+i {
+    font-size: 15px;
+    color: #12116e;
+}
+
+
+#button-container.active .toggle {
+    left: 45px;
+}
+
+body.active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.info-personal {
+    padding: 30px 25px;
+}
+
+.info {
+    padding: 0 100px;
+}
+
+th,
+td {
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.software-skill-cont {
+    display: flex;
+}
+
+.progress {
+    width: 600px;
+
+}
+
+.progress-bar {
+    background-color: #12116e;
+}
+
+.bottom-border {
+    border-bottom: 5px solid #12116e;
+}
+
+.titulo {
+    font-size: 35px;
+    margin: 30px 0px;
+}
+
+.titulo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo-container i {
+    margin-right: 10px;
+    color: #12116e;
+    border: 3px solid #12116e;
+    padding: 10px;
+    border-radius: 30px;
+}
